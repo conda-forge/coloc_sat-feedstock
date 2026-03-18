@@ -1,13 +1,13 @@
 {% set name = "coloc_sat" %}
-{% set version = "1.2.4" %}
+{% set version = "1.2.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 035967bc1e6d6c49a79529bafe013449aa7d6784ec5ec94c2f1490b2d796c77a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 2a5e575d23eca5809382e20f6f5b6a38cede0cdb0c34a5ebb90eb4824f59b98a
 
 build:
   noarch: python
